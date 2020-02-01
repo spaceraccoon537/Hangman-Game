@@ -1,5 +1,5 @@
 import sys
-word=input("Enter the word: ")
+word=input("Enter the name of the movie: ")
 a=[]
 str1=word
 unique=[]
@@ -40,7 +40,6 @@ while(guesses>0):
             print("Guesses=",guesses)
             if(guesses<=0):
                 print("!!!!!!!!!!!!YOU LOSE!!!!!!!!!!!!!!")
-                print("The word was: ",word)
+                print("The movie was: ",word)
                 sys.exit()
-print(a)
-print("@@@@@@@@@@@@@YOU WIN@@@@@@@@@@@@@@@@")
+
